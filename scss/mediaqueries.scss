@@ -1,0 +1,61 @@
+/* inicio de pantalla pequeña*/
+
+@media only screen and (max-width:600px){
+
+   
+
+    #gridIndex{
+        display: flex;
+        flex-direction: column;
+        div p{ 
+        font-size: 12px;
+        }
+    }
+         
+    #gridServicios{
+        display: flex;
+        flex-direction: column;
+        div p{ 
+        font-size: 12px;
+        }
+    }
+
+   
+    
+
+    main h1{
+        font-size: 15px;
+    }
+  
+    main h2{
+
+        font-size: 15px;
+    }
+
+    section div p{
+        font-size: 10px;
+    }
+
+}
+    
+/* inicio de pantalla mediana*/
+
+@media only screen and (min-width:600px){
+
+   
+
+    div p{
+        font-size: 15px;
+    }
+
+}
+
+/* inicio de pantalla grande*/
+
+@media only screen and (min-with:992px) {
+    
+   
+   
+    
+
+}

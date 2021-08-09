@@ -1,0 +1,88 @@
+/* Inicio Grillas*/
+
+#gridIndex{
+    align-items:center;
+    justify-content:flex-start;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: .5fr 2fr 3fr;
+    row-gap: 10px;
+    column-gap: 20px;
+    grid-template-areas: "area1  area2   area3"
+                         "area4  area5   area6"
+                         "area7  area8   area8";
+}
+     
+    .area1{
+        grid-area: area1;
+        
+    }
+
+    .area2{
+        grid-area: area2;
+    }
+
+    .area3{
+        grid-area: area3;
+    }
+
+    .area4{
+        grid-area: area4;
+    }
+
+    .area5{
+        grid-area: area5;
+    }
+
+    .area6{
+        grid-area: area6;
+    }
+
+    .area7{
+        grid-area: area7;
+    }
+
+    .area8{
+        grid-area: area8;
+    }
+
+#gridServicios{
+
+    align-items:center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr;
+    row-gap: 10px;
+    column-gap: 20px;
+    grid-template-areas: "box1  box2   box3"
+                         "box4  box5   box6";
+
+}
+
+.box1{
+    grid-area: box1;
+    
+}
+
+.box2{
+    grid-area: box2;
+}
+
+.box3{
+    grid-area: box3;
+}
+
+.box4{
+    grid-area: box4;
+}
+
+.box5{
+    grid-area: box5;
+}
+
+.box6{
+    grid-area: box6;
+}
+
+
+/* Fin Grillas*/
