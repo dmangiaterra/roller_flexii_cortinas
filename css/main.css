@@ -111,12 +111,10 @@ h1 {
 
 h2 {
   font-family: "Noto Sans JP", sans-serif;
-  color: #979494;
   font-size: 1.2rem;
   text-align: left;
   font-weight: bolder;
   text-shadow: 20px;
-  background-color: whitesmoke;
   margin: 20px; }
 
 header {
@@ -165,8 +163,8 @@ div p {
   text-align: center; }
 
 div div {
-  padding-right: 50px;
-  padding-left: 50px; }
+  padding-right: 5px;
+  padding-left: 5px; }
   div div p {
     font-size: 15px;
     font-family: "Noto Sans JP", sans-serif; }
